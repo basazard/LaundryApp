@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Laundry via WhatsApp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/edit_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:layout_marginTop="70dp"
+        />
+
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/edit_nomor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="No. Hp"
+        android:inputType="phone"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/edit_pesan"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:hint="Write Message.."
+        android:gravity="top|left"
+        android:inputType="textLongMessage"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_kirim"
+        android:text="Send"
+        android:layout_marginTop="10dp"
+        android:background="#E0F7EF"
+        android:textColor="#0000"/>
+
+</LinearLayout>

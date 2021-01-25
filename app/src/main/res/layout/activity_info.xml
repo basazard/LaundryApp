@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_info_scene"
+    tools:context=".InfoActivity"
+    android:background="#E0F7EF">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_people"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Your Daily Laundry Solution"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="180dp"
+        android:textColor="#978ECB"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="D-Laundry is an On-Demand Online Laundry Solution.
+We provide On-Demand Laundry App to serve an affordable,
+worry free, and great experience laundry service to the customer.
+We are empowering local laundry merchants to join our partnership program to build standardized quality of
+laundry services."
+        android:textSize="12dp"
+        android:layout_marginTop="60dp"
+        android:textColor="#000"
+        android:layout_marginLeft="190dp"/>
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="150dp"
+        android:src="@drawable/ic_connecting"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Connecting Laundry"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="150dp"
+        android:textColor="#978ECB"/>
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="150dp"
+        android:background="@drawable/ic_washing"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Worry Free Service"
+        android:layout_marginTop="510dp"
+        android:layout_marginLeft="150dp"
+        android:textColor="#978ECB"/>
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="150dp"
+        android:background="@drawable/ic_ironing"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Empowering Community"
+        android:layout_marginTop="660dp"
+        android:layout_marginLeft="150dp"
+        android:textColor="#978ECB"/>
+</RelativeLayout>
